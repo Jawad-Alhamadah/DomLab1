@@ -2,8 +2,8 @@
 
 let title = document.getElementsByClassName("main-title")[0]
 
-title.style.color="#ffcd12"
-title.style.backgroundColor="#abcd23"
+title.style.color="rgb(162 162 205)"
+title.style.backgroundColor="rgb(227 222 247)"
 
 
 let paragraph = document.getElementById("main-paragraph")
@@ -93,7 +93,7 @@ row.appendChild(data_cell)
 
 table.appendChild(row)
 
-
+//
 document.body.appendChild(table)
 
 // let col = document.createElement("tl")

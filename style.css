@@ -1,12 +1,14 @@
 
 
 .text {
- color: aqua;
- background-color: blueviolet;
+    color: #c0bebe;
+    background-color: #f8eff4;
 }
 
 
 .colored_table {
     color: cadetblue;
-    background-color: chartreuse;
+    background-color: rgb(230, 230, 190);
+    font-size: 1.2em;
+    
 }
