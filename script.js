@@ -9,7 +9,8 @@ title.style.backgroundColor="rgb(227 222 247)"
 let paragraph = document.getElementById("main-paragraph")
 
 
-paragraph.style.fontSize="40px"
+paragraph.style.fontSize="30px"
+paragraph.style.fontWeight="700"
 paragraph.classList.add("text")
 
 
@@ -52,6 +53,7 @@ list.append(item)
 let table = document.createElement("table")
 table.classList.add("colored_table")
 
+table.attributes.border="2px"
 let row = document.createElement("tr")
 
 
@@ -96,10 +98,3 @@ table.appendChild(row)
 //
 document.body.appendChild(table)
 
-// let col = document.createElement("tl")
-// col.innerText="im row"
-// table.appendChild(row)
-// row = document.createElement("tr")
-// table.appendChild(row)
-// row = document.createElement("tr")
-// table.appendChild(row)
